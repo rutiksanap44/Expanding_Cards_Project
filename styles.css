@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    width: 80%;
+}
+.section{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    cursor: pointer;
+    flex: 0.2;
+    margin: 8px;
+    position: relative;
+    transition: all 0.7s ease-out;
+}
+.section.active {
+    flex: 3;
+  }
+.one{
+    background-image: url(https://cdn.pixabay.com/photo/2016/01/08/11/57/butterflies-1127666_960_720.jpg);
+}
+.two{
+    background: url(https://cdn.pixabay.com/photo/2015/12/01/20/28/road-1072821_960_720.jpg);
+}
+.three{
+    background: url(https://cdn.pixabay.com/photo/2016/07/11/15/43/woman-1509956_960_720.jpg);
+}
+.four{
+    background: url(https://cdn.pixabay.com/photo/2017/11/23/03/17/christmas-2971961_960_720.jpg);
+}
